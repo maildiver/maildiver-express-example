@@ -1,0 +1,22 @@
+{
+  "name": "maildiver-express-example",
+  "version": "1.0.0",
+  "description": "Maildiver Express Typescript Example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx --env-file=.env index.ts"
+  },
+  "author": "Maildiver",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "maildiver": "^0.1.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
